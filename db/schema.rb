@@ -12,19 +12,4 @@
 
 ActiveRecord::Schema.define(version: 2019_05_22_100642) do
 
-  create_table "items", force: true do |t|
-    t.string   "name"
-    t.integer  "price"
-  end
-
-  create_table "categories", force: true do |t|
-     t.string   "name"
-  end
-
-  create_table "categories_items", force: true do |t|
-     t.integer  "item_id"
-     t.integer  "categories_id"
-  end
-
-
 end
