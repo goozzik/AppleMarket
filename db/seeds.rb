@@ -9,3 +9,10 @@
 Category.create(name: 'Mac')
 Category.create(name: 'Iphone')
 Category.create(name: 'Accessories')
+<<<<<<< HEAD
+=======
+
+Item.create(name: 'MacBook Pro')
+Item.create(name: 'Iphone XR')
+Item.create(name: 'Iphone charger')
+>>>>>>> 9325dfc... Add Categories index page + Categories show page + seeds
