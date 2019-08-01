@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root 'application#welcome'
-end
+
+  get 'categories/:id/items' => 'categories#show'
+  resources :items
+
+  get 'categories/index'
+  resources :categories
+
+  root 'categories#index'
+end 
